@@ -2,16 +2,16 @@ import streamlit as st
 import os
 import requests
 
+HF_API_KEY = os.getenv("HF_API_KEY")
+
+if not HF_API_KEY:
+    st.error("Hugging Face API key missing in environment variables.")
+    st.stop()
 # ===============================
 # CONFIGURATION
 # ===============================
 
 # Get API key from Streamlit secrets (for deployment)
-HF_API_KEY = st.secrets.get("HF_API_KEY", None)
-
-if not HF_API_KEY:
-    st.error("Hugging Face API key not found. Add it in Streamlit secrets.")
-    st.stop()
 
 API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3"
 headers = {"Authorization": f"Bearer {HF_API_KEY}"}
@@ -102,4 +102,5 @@ if st.button("Generate"):
             st.write(result)
 
 st.markdown("---")
+
 st.caption("Built with Streamlit + HuggingFace Transformers")
