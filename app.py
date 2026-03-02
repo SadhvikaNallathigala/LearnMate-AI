@@ -10,7 +10,7 @@ if not HF_API_KEY:
 # ===============================
 # CONFIGURATION 
 # =============================== 
-
+ 
 # Get API key from Streamlit secrets (for deployment)
 
 API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3"
@@ -104,6 +104,7 @@ if st.button("Generate"):
 st.markdown("---")
 
 st.caption("Built with Streamlit + HuggingFace Transformers")
+
 
 
 
