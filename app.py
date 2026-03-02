@@ -6,7 +6,7 @@ HF_API_KEY = os.getenv("HF_API_KEY")
 
 if not HF_API_KEY:
     st.error("Hugging Face API key missing in environment variables.")
-    st.stop()
+    st.stop() 
 # ===============================
 # CONFIGURATION
 # ===============================
@@ -104,5 +104,6 @@ if st.button("Generate"):
 st.markdown("---")
 
 st.caption("Built with Streamlit + HuggingFace Transformers")
+
 
 
