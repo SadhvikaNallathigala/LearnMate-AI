@@ -9,7 +9,7 @@ if not HF_API_KEY:
     st.stop() 
 # ===============================
 # CONFIGURATION 
-# ===============================
+# =============================== 
 
 # Get API key from Streamlit secrets (for deployment)
 
@@ -104,6 +104,7 @@ if st.button("Generate"):
 st.markdown("---")
 
 st.caption("Built with Streamlit + HuggingFace Transformers")
+
 
 
 
