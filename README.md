@@ -12,7 +12,7 @@ This project focuses on improving accessibility and personalization in modern le
 
 Many students struggle with complex academic content and inefficient study methods. Traditional study resources often lack personalization and structured support.
 
-This application addresses these challenges by:
+This application addresses these challenges by: 
 - Generating concise AI-based summaries
 - Providing structured concept explanations
 - Creating practice questions automatically
