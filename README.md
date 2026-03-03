@@ -8,7 +8,7 @@ This project focuses on improving accessibility and personalization in modern le
 
 ---   
  
-## Problem Statement 
+## Problem Statement  
 
 Many students struggle with complex academic content and inefficient study methods. Traditional study resources often lack personalization and structured support.
 
