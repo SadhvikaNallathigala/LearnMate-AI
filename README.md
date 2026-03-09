@@ -6,7 +6,7 @@ AI-Powered Student Learning Assistant is an intelligent academic support applica
 
 This project focuses on improving accessibility and personalization in modern learning using AI-driven techniques.
 
----    
+---     
   
 ## Problem Statement  
 
