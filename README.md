@@ -1,6 +1,6 @@
 # AI-Powered Student Learning Assistant
 
-## Overview  
+## Overview   
 
 AI-Powered Student Learning Assistant is an intelligent academic support application designed to help students better understand complex learning materials. The system leverages Transformer-based NLP models to generate summaries, detailed explanations, model questions, and interactive quizzes to enhance comprehension and retention.
 
