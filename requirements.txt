@@ -1,4 +1,15 @@
-streamlit>=1.32.0
-requests>=2.31.0
-python-dotenv>=1.0.0
+# ─────────────────────────────────────────────
+# AI Student Learning Assistant — Requirements
+# ─────────────────────────────────────────────
 
+# Core framework
+streamlit>=1.32.0
+
+# HTTP requests (Ollama)
+requests>=2.31.0
+
+# PDF export (optional but recommended)
+fpdf2>=2.7.9
+
+# Groq SDK (optional — free tier AI)
+groq>=0.5.0
