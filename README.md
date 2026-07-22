@@ -8,7 +8,7 @@ Built using **Python**, **Streamlit**, **Ollama**, and **Mistral LLM**, LearnMat
 
 Unlike traditional educational tools that rely on static templates, LearnMate AI utilizes a locally hosted Large Language Model (LLM) to generate context-aware educational content while preserving privacy and eliminating dependency on paid cloud APIs.
 
----  
+---   
 
 ## 🚀 Key Features
 
